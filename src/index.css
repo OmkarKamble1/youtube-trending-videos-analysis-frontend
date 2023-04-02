@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {	
+	font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.title::before {
+	content: "";
+	background-image: linear-gradient(90deg,rgb(255, 125, 125),rgb(125, 125, 255));
+	position: absolute;
+	width: 110%;
+	height: 3px;
+	bottom: -4px;
+}
